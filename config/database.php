@@ -12,7 +12,7 @@ include ('setup.php');
 $conn = NULL;
 //creating db ends here//////////////////////////////////////////////////////
 
-
+//you dont one this line 16 to line 26
 //connecting to created db//////////////////////////////////////////////////
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$db", $root, $password);
